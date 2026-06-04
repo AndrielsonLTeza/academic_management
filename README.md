@@ -9,7 +9,7 @@ O aplicativo cobre o ciclo completo de gerenciamento de dados (CRUD):
 * **Listar Cursos:** Exibição dinâmica dos cursos salvos diretamente do banco de dados.
 * **Editar Curso:** Alteração de dados de registros existentes com atualização em tempo real.
 * **Excluir Curso:** Remoção de registros com alerta de confirmação (`AlertDialog`) e feedback visual.
-* **Persistência Local Permanente:** Os dados permanecem salvos com segurança no dispositivo mesmo após o fechamento completo do aplicativo[cite: 1].
+* **Persistência Local Permanente:** Os dados permanecem salvos com segurança no dispositivo mesmo após o fechamento completo do aplicativo.
 
 ---
 
@@ -62,8 +62,9 @@ Inicie o seu emulador configurado (Ex: Pixel_8_Pro):
 ```
 Execute o aplicativo no dispositivo móvel:
 
-
+```
    flutter run
+```
 🤖 Uso de Inteligência Artificial (Atividade 2)
 Este projeto contou com o auxílio de IA no processo de pareamento de código, refinamento da arquitetura local e diagnóstico de compatibilidade de plataformas (Web vs. Mobile).
 
