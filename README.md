@@ -25,7 +25,7 @@ O aplicativo cobre o ciclo completo de gerenciamento de dados (CRUD):
 
 A organização dos arquivos segue as boas práticas de separação de conceitos propostas para a atividade:
 
-```text
+```
 lib/
 ├── database/
 │   └── app_database.dart      # Inicialização do SQLite e criação das tabelas
@@ -46,20 +46,23 @@ Como o banco de dados sqflite é focado em armazenamento nativo mobile, o projet
 
 Clone o repositório:
 
-Bash
+```
    git clone [https://github.com/AndrielsonLTeza/academic_management.git](https://github.com/AndrielsonLTeza/academic_management.git)
    cd academic_management
+```
 Instale as dependências do Flutter:
 
-Bash
+```
    flutter pub get
+```
 Inicie o seu emulador configurado (Ex: Pixel_8_Pro):
 
-Bash
+```
    flutter emulators --launch Pixel_8_Pro
+```
 Execute o aplicativo no dispositivo móvel:
 
-Bash
+
    flutter run
 🤖 Uso de Inteligência Artificial (Atividade 2)
 Este projeto contou com o auxílio de IA no processo de pareamento de código, refinamento da arquitetura local e diagnóstico de compatibilidade de plataformas (Web vs. Mobile).
