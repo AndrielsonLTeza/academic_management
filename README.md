@@ -38,8 +38,8 @@ lib/
 ├── views/
 │   └── course_page.dart       # Interface do usuário (UI), formulários e listagem
 └── main.dart                  # Ponto de entrada e inicialização do app
+```
 
-```text
 
 💻 Como Executar o Projeto
 Como o banco de dados sqflite é focado em armazenamento nativo mobile, o projeto deve ser executado obrigatoriamente em um Emulador Android/iOS ou Celular Físico conectado via USB[cite: 1].
